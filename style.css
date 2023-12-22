@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.top{
+    background-color:#9fc5f8;
+    color: white;
+    
+}
+
+.nav{
+ 
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+   
+   
+
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 10px;
+   
+   
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.name{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+
+
+}
+
+
+.main-content, .nav{
+    margin: 0 auto ;
+    width: 1000px;
+  
+
+}
+.tpt{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.tpt select
+{
+    width:40px;
+    height: 30px;
+}
+.name h2{
+    font-size: 40px;
+}
+
+.tpt select, .tpt p
+{
+    font-size: 18px;
+    padding:5px;
+}
+
+.row{
+    display: flex; 
+    
+}
+
+.forecast{
+    flex: 1;
+    align-items: center;
+    background-color:#eeeeee;
+    text-align: center;
+    margin-right:20px;
+    padding:5px ;
+    
+    
+}
+.forecast  img{
+    border-radius: 50%;
+    width: 80px;
+    margin: 40px 0;
+    
+}
+
+.forecast p{
+    font-size: 20px;
+}
+.high{
+    float: left;
+    color:red;
+    font-size: 21px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+.low{
+    float: right;
+    color: blue;
+    font-size: 21px;
+    margin-top:25px;
+    font-weight: 900;
+    
+}
+.high::after, .low::after {
+    content: "°";
+}
+
+.popup{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.cookies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   box-sizing: border-box;
+    border: 2px solid black;
+    background-color:#eeeeee;
+    width: 900px;
+    height: 120px;
+    padding: 20px;
+    margin: 0 auto;
+  
+  
+}
+
+.btn{
+    box-shadow: 4px 4px black;
+    background-color: #9fc5f8;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cookie-text{
+    width: 600px;
+} 
+
+.cookie-text h2 {
+    font-size: 25px;
+}
+
+.cookie-text p {
+    font-size: 18px;
+}
